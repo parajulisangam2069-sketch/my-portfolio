@@ -1,93 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sangam Parajuli | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 🔍 Google Search (SEO) Meta Tags -->
+    <title>Sangam Parajuli Developer | Ethical Hacker & Cyber Law Student</title>
+    <meta name="description" content="Official Portfolio of Sangam Parajuli Developer - 16-year-old Web Developer, Ethical Hacker, Python Programmer & Cyber Law Enthusiast from Nepal.">
+    <meta name="keywords" content="Sangam Parajuli Developer, Sangam Parajuli Ethical Hacker, Sangam Developer, Sangam Parajuli Cyber Security, Sangam Law Student">
+    <meta name="author" content="Sangam Parajuli Developer">
 
-  <style>
-    body{
-      margin:0;
-      font-family:Arial,sans-serif;
-      background:#f4f4f4;
-      color:#333;
-      text-align:center;
-    }
-
-    header{
-      background:#0d47a1;
-      color:white;
-      padding:30px;
-    }
-
-    section{
-      background:white;
-      margin:20px;
-      padding:20px;
-      border-radius:10px;
-      box-shadow:0 0 10px rgba(0,0,0,0.1);
-    }
-
-    img{
-      width:250px;
-      margin:10px;
-      border-radius:8px;
-    }
-
-    footer{
-      background:#0d47a1;
-      color:white;
-      padding:15px;
-      margin-top:20px;
-    }
-
-    h2{
-      color:#0d47a1;
-    }
-  </style>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
 
-<header>
-<h1>Sangam Parajuli</h1>
-<p>Aspiring Web Developer | Nepal</p>
-</header>
+    <!-- Animated Background -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
 
-<section>
-<h2>About Me / मेरो बारेमा</h2>
-<p>
-Hello! I am Sangam Parajuli from Nepal.
-I have completed HTML and JavaScript courses on SoloLearn and I am learning web development.
+    <!-- 🎵 Hacking Sound Effect Control -->
+    <div class="sound-control-container">
+        <button id="sound-toggle" class="sound-btn" onclick="toggleSound()">
+            <i class="fas fa-volume-up" id="sound-icon"></i>
+        </button>
+    </div>
 
-<br><br>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="profile-avatar-glow">
+                <img src="Photo%20for%20profile%20.jpg" alt="Sangam Parajuli Developer Profile Photo" class="profile-pic">
+            </div>
+            
+            <h1 class="logo">Sangam <span class="neon-text">Parajuli</span></h1>
+            
+            <!-- ⌨️ Typing Effect Tagline -->
+            <p class="tagline">
+                <i class="fas fa-terminal"></i> 
+                I am a <span class="typing-text neon-text"></span>
+            </p>
+            
+            <blockquote class="hero-quote">
+                "Success is not permanent and failure is not final. Work hard, dream big."
+            </blockquote>
 
-नमस्कार! म संगम पराजुली, नेपालबाट।
-मैले SoloLearn बाट HTML र JavaScript कोर्स पूरा गरेको छु र वेब डेभलपमेन्ट सिक्दै छु।
-</p>
-</section>
+            <div class="header-badges">
+                <span class="badge"><i class="fas fa-child"></i> Age: 16 Years Old</span>
+                <span class="badge"><i class="fas fa-graduation-cap"></i> Class 8 Student</span>
+                <span class="badge"><i class="fas fa-user-secret"></i> Ethical Hacker</span>
+                <span class="badge"><i class="fas fa-code"></i> Web Developer</span>
+                <span class="badge"><i class="fas fa-gavel"></i> Law Learner</span>
+            </div>
 
-<section>
-<h2>Certificates / प्रमाणपत्र</h2>
+            <div class="visitor-badge">
+                <img src="https://profile-counter.glitch.me/Sangamparajuli-sketch2069/count.svg" alt="Visitor Count">
+            </div>
 
-<p>HTML Certificate - SoloLearn</p>
+            <div class="social-links">
+                <a href="https://github.com/Sangamparajuli-sketch2069" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#contact"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </header>
 
-<p>JavaScript Certificate - SoloLearn</p>
+    <!-- 🆔 Digital Cyber & Ethical Hacker ID Card Section -->
+    <section class="id-card-section container">
+        <h2 class="section-title"><i class="fas fa-id-card"></i> Digital Cyber & Ethical Hacker ID</h2>
+        <div class="glass-card cyber-id-card">
+            <div class="id-card-header">
+                <i class="fas fa-user-secret"></i> CYBER SECURITY & ETHICAL HACKING CELL
+            </div>
+            <div class="id-card-body">
+                <div class="id-photo-container">
+                    <img src="id_photo.jpg" alt="Sangam Parajuli Developer ID Photo" class="id-photo">
+                    <span class="verified-badge"><i class="fas fa-shield-alt"></i> VERIFIED HACKER</span>
+                </div>
+                <div class="id-details">
+                    <h3>Sangam Parajuli</h3>
+                    <p class="id-role"><i class="fas fa-terminal"></i> Ethical Hacker & Web Developer</p>
+                    <p><strong>ID No:</strong> #SP-2069-DEV</p>
+                    <p><strong>Status:</strong> Class 8 / Active Student</p>
+                    <p><strong>Focus:</strong> Ethical Hacking & Cyber Law</p>
+                    <p><strong>School:</strong> Shree Gauri Shankar Sec. School</p>
+                </div>
+            </div>
+            <div class="id-card-footer">
+                <span><i class="fas fa-lock"></i> AUTHORIZED ETHICAL HACKER</span>
+                <i class="fas fa-barcode barcode-icon"></i>
+            </div>
+        </div>
+    </section>
 
-</section>
+    <!-- About Me Section -->
+    <section class="about container">
+        <h2 class="section-title"><i class="fas fa-user-code"></i> About Me</h2>
+        <div class="glass-card main-about">
+            <p>Hello! I am <strong>Sangam Parajuli</strong>, a 16-year-old Ethical Hacker, Web Developer, and student from Nepal. I am actively combining technology (Ethical Hacking, Web Development & Python) with <strong>Law (कानून)</strong> to build a future career as a Cyber Law Specialist.</p>
+        </div>
+        
+        <div class="info-grid">
+            <div class="glass-card info-card hover-beep">
+                <i class="fas fa-school card-icon"></i>
+                <div>
+                    <h4>School Name</h4>
+                    <p>Shree Gauri Shankar Secondary School, Nijgadh-8, Bara</p>
+                </div>
+            </div>
 
-<section>
-<h2>Skills / सीप</h2>
+            <div class="glass-card info-card hover-beep">
+                <i class="fas fa-users card-icon"></i>
+                <div>
+                    <h4>Family Details</h4>
+                    <p><strong>Father:</strong> Shiba Ram Parajuli<br><strong>Mother:</strong> Susila Parajuli<br><strong>Brother:</strong> Sanskar Parajuli</p>
+                </div>
+            </div>
 
-<p>✅ HTML</p>
-<p>✅ JavaScript</p>
-<p>📚 CSS (Learning)</p>
+            <div class="glass-card info-card hover-beep">
+                <i class="fas fa-map-marker-alt card-icon"></i>
+                <div>
+                    <h4>Addresses</h4>
+                    <p><strong>Perm:</strong> Rautahat-4, Pokharbhinda<br><strong>Temp:</strong> Nijgadh-8, Bara</p>
+                </div>
+            </div>
 
-</section>
+            <div class="glass-card info-card hover-beep">
+                <i class="fas fa-language card-icon"></i>
+                <div>
+                    <h4>Languages</h4>
+                    <p>Nepali, English, Hindi</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<footer>
-<p>© 2026 Sangam Parajuli</p>
-</footer>
+    <!-- 📜 Journey Timeline Section -->
+    <section class="journey container">
+        <h2 class="section-title"><i class="fas fa-history"></i> My Learning Journey</h2>
+        <div class="timeline-container">
+            <div class="timeline-main-line"></div>
+            
+            <div class="glass-card timeline-card timeline-left hover-beep">
+                <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+                <h4>Foundation & Schooling</h4>
+                <p class="timeline-sub">Class 8 Student | Shree Gauri Shankar Sec. School, Nijgadh</p>
+                <p>Started building interest in technology, legal systems, and logical reasoning alongside regular academic studies.</p>
+            </div>
 
+            <div class="glass-card timeline-card timeline-right hover-beep">
+                <div class="timeline-icon"><i class="fas fa-code"></i></div>
+                <h4>Web & Python Dev</h4>
+                <p class="timeline-sub">Self-Taught Coder</p>
+                <p>Learned HTML5, CSS3, JavaScript, and basic Python. Built custom websites and dynamic web projects.</p>
+            </div>
+
+            <div class="glass-card timeline-card timeline-left hover-beep">
+                <div class="timeline-icon"><i class="fas fa-user-secret"></i></div>
+                <h4>Cyber & Ethical Hacker</h4>
+                <p class="timeline-sub">Self-Practice on Cyber Labs</p>
+                <p>Started mastering Linux, network fundamentals, and hands-on Ethical Hacking on platforms like TryHackMe (#SP-2069-DEV).</p>
+            </div>
+
+            <div class="glass-card timeline-card timeline-right hover-beep">
+                <div class="timeline-icon"><i class="fas fa-gavel"></i></div>
+                <h4>Law & Cyber Vision</h4>
+                <p class="timeline-sub">Aspiring Cyber Law Specialist</p>
+                <p>Integrating technical hacker skills with Nepal's Cyber Law (कानून) to pursue a career in digital defense.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills container">
+        <h2 class="section-title"><i class="fas fa-tools"></i> My Skills & Focus</h2>
+        <div class="skills-grid">
+            <div class="glass-card skill-card hover-beep"><i class="fas fa-user-secret"></i> Ethical Hacking</div>
+            <div class="glass-card skill-card hover-beep"><i class="fas fa-gavel"></i> Law & Legal Studies</div>
+            <div class="glass-card skill-card hover-beep"><i class="fas fa-shield-alt"></i> Cyber Security</div>
+            <div class="glass-card skill-card hover-beep"><i class="fab fa-html5"></i> Web Development</div>
+            <div class="glass-card skill-card hover-beep"><i class="fab fa-python"></i> Python Coder</div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates container">
+        <h2 class="section-title"><i class="fas fa-certificate"></i> My Certifications</h2>
+        <div class="cert-grid">
+            <div class="glass-card cert-card hover-beep"><img src="cert1.jpg" alt="Certificate 1"><h3>Certificate 1</h3></div>
+            <div class="glass-card cert-card hover-beep"><img src="cert2.jpg" alt="Certificate 2"><h3>Certificate 2</h3></div>
+            <div class="glass-card cert-card hover-beep"><img src="cert3.jpg" alt="Certificate 3"><h3>Certificate 3</h3></div>
+            <div class="glass-card cert-card hover-beep"><img src="cert4.jpg" alt="Certificate 4"><h3>Certificate 4</h3></div>
+            <div class="glass-card cert-card hover-beep"><img src="cert5.jpg" alt="Certificate 5"><h3>Certificate 5</h3></div>
+        </div>
+    </section>
+
+    <!-- 🤖 AI Assistant Section -->
+    <section class="ai-section container">
+        <h2 class="section-title"><i class="fas fa-robot"></i> Ask Sangam's AI Assistant</h2>
+        <div class="glass-card ai-chat-box">
+            <div class="chat-logs" id="chat-logs">
+                <div class="chat-msg bot-msg">
+                    <i class="fas fa-robot"></i> <span>Namaste! Ask me anything about Sangam Parajuli Developer, Ethical Hacking, Law studies, or Family!</span>
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="ai-input" placeholder="Ask a question or try math like 25*4..." autocomplete="off">
+                <button id="ai-send-btn" onclick="askAI()"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact container">
+        <h2 class="section-title"><i class="fas fa-paper-plane"></i> Get In Touch</h2>
+        <form action="mailto:sangamparajuli2069@gmail.com" method="post" enctype="text/plain" class="glass-card contact-form">
+            <div class="input-group">
+                <input type="text" name="name" placeholder="Your Full Name" required>
+            </div>
+            <div class="input-group">
+                <input type="email" name="email" placeholder="Your Email Address" required>
+            </div>
+            <div class="input-group">
+                <textarea name="message" rows="4" placeholder="Your Message..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn hover-beep"><i class="fas fa-paper-plane"></i> Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> <strong>Sangam Parajuli Developer</strong>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Audio Elements for Sound Effects -->
+    <audio id="ambient-audio" src="ambient-hacker.mp3" loop></audio>
+    <audio id="beep-audio" src="beep.mp3"></audio>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // 🎵 Sound Control
+        let isMuted = true;
+        const ambientAudio = document.getElementById('ambient-audio');
+        const beepAudio = document.getElementById('beep-audio');
+        const soundBtn = document.getElementById('sound-toggle');
+        const soundIcon = document.getElementById('sound-icon');
+
+        function toggleSound() {
+            isMuted = !isMuted;
+            if (isMuted) {
+                ambientAudio.pause();
+                soundIcon.classList.remove('fa-volume-up');
+                soundIcon.classList.add('fa-volume-mute');
+                beepAudio.volume = 0;
+            } else {
+                ambientAudio.volume = 0.3;
+                ambientAudio.play();
+                soundIcon.classList.remove('fa-volume-mute');
+                soundIcon.classList.add('fa-volume-up');
+                beepAudio.volume = 0.5;
+            }
+        }
+
+        // Play Beep on Hover
+        const hoverElements = document.querySelectorAll('.hover-beep');
+        hoverElements.forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                if (!isMuted) {
+                    beepAudio.currentTime = 0;
+                    beepAudio.play();
+                }
+            });
+        });
+
+        // ⌨️ Typing Effect Tagline
+        const typingText = document.querySelector('.typing-text');
+        const phrases = [
+            "Web Developer.",
+            "Ethical Hacker.",
+            "Law Student.",
+            "Self-Taught Coder."
+        ];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function type() {
+            const currentPhrase = phrases[phraseIndex];
+            const typeSpeed = isDeleting ? 70 : 150;
+
+            if (isDeleting) {
+                typingText.textContent = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingText.textContent = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                isDeleting = true;
+                setTimeout(type, 1500);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+                setTimeout(type, 500);
+            } else {
+                setTimeout(type, typeSpeed);
+            }
+        }
+        type();
+
+        // AI Assistant Functions
+        function askAI() {
+            const inputField = document.getElementById('ai-input');
+            const chatLogs = document.getElementById('chat-logs');
+            const rawInput = inputField.value.trim();
+            const query = rawInput.toLowerCase();
+
+            if (query === "") return;
+
+            chatLogs.innerHTML += `
+                <div class="chat-msg user-msg">
+                    <span>${rawInput}</span> <i class="fas fa-user"></i>
+                </div>
+            `;
+
+            let botResponse = "";
+
+            if (/^[0-9\s\+\-\*\/\.\(\)]+$/.test(query) && query.length > 1) {
+                try {
+                    const result = eval(query);
+                    botResponse = `Answer: <b>${result}</b>`;
+                } catch (e) {
+                    botResponse = "Invalid math expression!";
+                }
+            }
+            else if (query.includes('hi') || query.includes('hello') || query.includes('namaste')) {
+                botResponse = "Namaste! I am Sangam's AI Assistant. Ask me about Sangam Parajuli Developer, Ethical Hacking, Law studies, or Family!";
+            } else if (query.includes('id') || query.includes('card') || query.includes('hacker')) {
+                botResponse = "Sangam Parajuli is a Verified Ethical Hacker & Web Developer with Cyber ID #SP-2069-DEV.";
+            } else if (query.includes('law') || query.includes('kanun')) {
+                botResponse = "Sangam is studying Law (कानून) alongside Ethical Hacking and Web Development at age 16.";
+            } else if (query.includes('family') || query.includes('father') || query.includes('mother') || query.includes('brother')) {
+                botResponse = "Family Info:<br>• Father: Shiba Ram Parajuli<br>• Mother: Susila Parajuli<br>• Brother: Sanskar Parajuli";
+            } else {
+                botResponse = "Ask me about Sangam Parajuli Developer, Cyber ID, Ethical Hacking, Law studies, or math calculations!";
+            }
+
+            setTimeout(() => {
+                chatLogs.innerHTML += `
+                    <div class="chat-msg bot-msg">
+                        <i class="fas fa-robot"></i> <span>${botResponse}</span>
+                    </div>
+                `;
+                chatLogs.scrollTop = chatLogs.scrollHeight;
+            }, 250);
+
+            inputField.value = "";
+            chatLogs.scrollTop = chatLogs.scrollHeight;
+        }
+
+        document.getElementById('ai-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                askAI();
+            }
+        });
+    </script>
 </body>
 </html>
